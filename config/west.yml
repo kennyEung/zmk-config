@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/mctechnology17
     - name: gpeye                        
       url-base: https://github.com/GPeye  
+    - name: whoop-t
+      url-base: https://github.com/whoop-t
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -16,6 +18,9 @@ manifest:
       revision: main
     - name: mario-peripheral-animation
       remote: gpeye                       
-      revision: main                      
+      revision: main
+    - name: nice-luffy-wanted
+      remote: whoop-t                     
+      revision: main
   self:
     path: config
