@@ -20,8 +20,8 @@
 ---
 include:
   - board: nice_nano
-    shield: corne_left nice_view
+    shield: corne_left nice_view_adapter nice_view
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano
-    shield: corne_right nice_luffy_wanted nice_view 
+    shield: corne_right nice_luffy_wanted nice_view_adapter nice_view 
